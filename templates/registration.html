@@ -1,0 +1,43 @@
+{% include "header.html"%}
+<form method="post">
+<center>
+	<h2>registration</h2>
+	<table>
+		<tr>
+			<td>Firstname</td>
+			<td><input type="text" name="fname"></td>
+		</tr>
+		<tr>
+			<td>Lastname</td>
+			<td><input type="text" name="lname"></td>
+		</tr>
+		<tr>
+			<td>email</td>
+			<td><input type="email" name="email"></td>
+		</tr>
+		<tr>
+			<td>phone</td>
+			<td><input type="text" name="phone"></td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>Female<input type="radio" name="Gender" value="Female">
+				Male<input type="radio" name="Gender" value="Male">
+				Others<input type="radio" name="Gender" value="Others"></td>
+		</tr>
+		<tr>
+			<td>username</td>
+			<td><input type="text" name="uname"></td>
+		</tr>
+		<tr>
+			<td>password</td>
+			<td><input type="password" name="pword"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" name="reg" value="register"></td>
+		</tr>
+	</table>
+
+</center>
+</form>
+{% include "footer.html"%}
